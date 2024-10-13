@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/fragment_margin_horizontal">
+
+    <ImageView
+        android:id="@+id/article_image"
+        android:layout_width="@dimen/article_image_width"
+        android:layout_height="@dimen/article_image_height"
+        android:contentDescription="@string/article_image_description"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/article_source"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/article_card_source"
+        android:textColor="@color/purple"
+        app:fontFamily="@font/poppins"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/article_image" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/article_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/fragment_margin_horizontal"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="@string/article_card_title"
+        android:textColor="@color/black"
+        android:textSize="@dimen/search_edit_text_size"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@+id/article_image"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/article_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/fragment_margin_horizontal"
+        android:layout_marginTop="4dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="@string/article_card_description"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/article_image"
+        app:layout_constraintTop_toBottomOf="@+id/article_title" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/article_date_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/fragment_margin_horizontal"
+        android:layout_marginTop="@dimen/favorites_title_margin_top"
+        android:text="@string/article_card_date_time"
+        android:textColor="@color/black"
+        android:textSize="@dimen/search_edit_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/article_description" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="headlines_nav_title">Заголовки</string>
+    <string name="favorites_nav_title">Избранное</string>
+    <string name="search_nav_title">Поиск</string>
+    <string name="favorites_button_description">Кнопка избранное</string>
+    <string name="error_text_retry">Повторить</string>
+    <string name="error_text_internet">Нет интернета</string>
+    <string name="search_news_edit_text">Поиск новости...</string>
+    <string name="article_image_description">Картинка статьи</string>
+    <string name="article_card_source">Источник</string>
+    <string name="article_card_title">Заголовок</string>
+    <string name="article_card_description">Описание</string>
+    <string name="article_card_date_time">Дата время</string>
+</resources>

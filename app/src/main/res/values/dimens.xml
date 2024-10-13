@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="favorites_button_margin">32dp</dimen>
+    <dimen name="fragment_margin_horizontal">8dp</dimen>
+    <dimen name="fragment_margin_top">12dp</dimen>
+    <dimen name="favorites_title_margin_top">12dp</dimen>
+    <dimen name="favorites_recycler_margin_top">60dp</dimen>
+    <dimen name="error_corner_radius">10dp</dimen>
+    <dimen name="error_margin">16dp</dimen>
+    <dimen name="article_image_width">160dp</dimen>
+    <dimen name="article_image_height">90dp</dimen>
+    <dimen name="bottom_nav_height">80dp</dimen>
+    <dimen name="title_text_size">30sp</dimen>
+    <dimen name="error_text_size">16sp</dimen>
+    <dimen name="search_edit_text_size">14sp</dimen>
+</resources>
