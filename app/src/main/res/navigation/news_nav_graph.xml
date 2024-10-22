@@ -37,3 +37,4 @@
             app:destination="@id/articleFragment" />
     </fragment>
 </navigation>
+

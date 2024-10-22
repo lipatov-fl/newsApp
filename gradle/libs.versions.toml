@@ -7,7 +7,7 @@ junitVersion = "1.2.1"
 espressoCore = "3.6.1"
 appcompat = "1.7.0"
 material = "1.12.0"
-activity = "1.9.2"
+activity = "1.9.3"
 constraintlayout = "2.1.4"
 ksp = "2.0.0-1.0.22"
 lifecycleKtx = "2.8.6"
@@ -17,7 +17,7 @@ retrofitVersion = "2.9.0"
 gsonVersion = "2.9.0"
 interceptorVersion = "4.7.2"
 okhttpVersion = "4.11.0"
-navVersion = "2.8.2"
+navVersion = "2.8.3"
 glideVersion = "4.12.0"
 
 [libraries]
@@ -60,4 +60,5 @@ glide = { group = "com.github.bumptech.glide", name  = "glide", version.ref = "g
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+navigationSafeArgs = { id = "androidx.navigation.safeargs.kotlin", version.ref = "navVersion" }
 

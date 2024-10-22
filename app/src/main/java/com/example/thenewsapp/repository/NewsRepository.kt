@@ -4,9 +4,9 @@ import com.example.thenewsapp.api.RetrofitInstance
 import com.example.thenewsapp.database.ArticleDatabase
 import com.example.thenewsapp.models.Article
 
-class NewsRepository(val db: ArticleDatabase) {
+class NewsRepository(private val db: ArticleDatabase) {
     suspend fun getHeadlines(countryCode: String, pageNumber: Int) =
-            RetrofitInstance.api.getHeadlines(countryCode, pageNumber)
+        RetrofitInstance.api.getHeadlines(countryCode, pageNumber)
 
     suspend fun searchNews(searchQuery: String, pageNumber: Int) =
         RetrofitInstance.api.searchForNews(searchQuery, pageNumber)
